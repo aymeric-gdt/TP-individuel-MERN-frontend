@@ -1,0 +1,30 @@
+/* MesAnnonces.css */
+.mes-annonces-container {
+    max-width: 1200px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centre le conteneur */
+    padding: 20px; /* Espacement interne */
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.product-item {
+    border-bottom: 1px solid #ddd; /* Bordure inférieure légère entre les produits */
+    padding: 15px 0; /* Espacement vertical autour de chaque produit */
+}
+
+.product-item h3 {
+    margin: 0; /* Supprime la marge par défaut du titre */
+}
+
+/* Styles pour les bulles d'information */
+.bubble {
+    display: inline-block; /* Afficher comme un bloc en ligne pour créer une bulle */
+    background-color: #e7f1ff; /* Couleur de fond pour la bulle */
+    color: #333; /* Couleur du texte dans la bulle */
+    padding: 8px 12px; /* Espacement interne pour la bulle */
+    border-radius: 20px; /* Coins arrondis pour la bulle */
+    margin-right: 10px; /* Marge droite pour espacer les bulles entre elles */
+    font-size: 0.9em; /* Taille de police légèrement réduite pour les bulles */
+}
+

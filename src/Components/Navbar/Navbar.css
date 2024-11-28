@@ -1,0 +1,83 @@
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.navbar {
+    background-color: #0056b3; /* Bleu LDLC */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand a:hover {
+    color: #ffcc00; /* Jaune pour le survol */
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 20px;
+}
+
+.navbar-item a, .logout-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px; /* Coins légèrement arrondis */
+    transition: all 0.3s ease;
+}
+
+.navbar-item a:hover, .logout-button:hover {
+    background-color: #ffcc00; /* Jaune pour le survol */
+    color: #0056b3; /* Texte bleu sur fond jaune */
+}
+
+.logout-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    border-color: #ffcc00; /* Jaune pour le survol */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-list {
+        margin-top: 15px;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start; /* Alignement à gauche */
+    }
+
+    .navbar-item {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left; /* Alignement du texte à gauche */
+        padding-left: 10px; /* Espacement à gauche */
+    }
+}

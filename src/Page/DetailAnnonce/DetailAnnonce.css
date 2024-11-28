@@ -1,0 +1,16 @@
+/* DetailAnnonce.css */
+.detail-annonce-container {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centre le conteneur */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour le conteneur */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+img {
+    max-width: 30%; /* L'image ne dépassera pas la largeur de son conteneur */
+    max-height: 10%;
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+    object-fit: contain; /* L'image s'ajuste dans le conteneur sans être déformée */
+}
